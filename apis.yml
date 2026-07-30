@@ -1,22 +1,57 @@
 aid: lowkey
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lowkey.png
 name: Lowkey
-description: Lowkey is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Lowkey (lowkey.gg) was a San Francisco social gaming platform that let players
+  automatically record, review, and share their gameplay highlight clips across
+  titles like League of Legends, VALORANT, and Among Us. Backed by Y Combinator
+  and an a16z Series A, the company was acquired by Niantic (the developer of
+  Pokemon GO) and the consumer product was subsequently discontinued. It was
+  surfaced as an a16z portfolio company and added to the API Evangelist network
+  as a stub. An enrichment pass on 2026-07-20 found no live public developer
+  surface: the lowkey.gg domain no longer resolves/serves, and there is no public
+  API, OpenAPI, documentation portal, SDK, or MCP server to harvest.
 url: https://raw.githubusercontent.com/api-evangelist/lowkey/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- Y Combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-status-note: Acquired by Niantic; consumer product (lowkey.gg) discontinued. No live API surface as of 2026-07-20.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Gaming
+- Social
+- Video
+- Esports
+- Content Creation
+- Defunct
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
